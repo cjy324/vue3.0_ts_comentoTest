@@ -1,0 +1,53 @@
+:root {
+
+  /* Colors: */
+  --unnamed-color-ffffff: #FFFFFF;
+  --unnamed-color-00c854: #00C854;
+  --unnamed-color-495057: #495057;
+  --unnamed-color-212529: #212529;
+  --unnamed-color-f4f5f7: #F4F5F7;
+  --unnamed-color-dee2e6: #DEE2E6;
+  --unnamed-color-ff000033: #FF0000;
+  --unnamed-color-fa5252: #FA5252;
+  --unnamed-color-9ea5ab: #9EA5AB;
+}
+
+/* 노말라이즈 */
+body, ul, li, h1, h2, h3 {
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+a {
+  color:inherit;
+  text-decoration:none;
+}
+input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+button{
+  background: inherit; 
+  border:none; 
+  box-shadow:none; 
+  border-radius:0; 
+  padding:0; 
+  overflow:visible; 
+  cursor:pointer
+}
+
+/* 반응형 */
+@media ( min-width:769px ) {
+  .visible-sm-down {
+    display:none !important;
+    min-width: 375px;
+  }
+}
+
+@media ( max-width:768px ) {
+  .visible-md-up {
+    display:none !important;
+    width: 1920px;
+  }
+}
